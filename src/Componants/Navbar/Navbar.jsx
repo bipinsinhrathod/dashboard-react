@@ -11,11 +11,11 @@ const Navbar = () => {
   return (
     <>
       <section className=" flex justify-between bg-[#001529] ">
-        <div className="flex items-center  ">
-          <input className="rounded-lg ml-10 text-white outline-none p-2 bg-[#334454]" type="text" />
+        <div className="flex items-center">
+          <input className="rounded-lg ml-6 max-sm:w-24 text-white outline-none p-2 bg-[#334454]" type="text" />
         </div>
 
-        <div className="flex mr-10 space-x-8 p-5">
+        <div className="flex mr-10 space-x-4 p-5">
           <button
             className={` text-gray-300 p-2 rounded-md hover:text-white duration-300 transition-all hover:scale-110 ${
               activeBtn === 'home' ? 'bg-[#1677FF]' : "bg-[#001529]"
